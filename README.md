@@ -22,16 +22,14 @@ Model path on target machine:
 
 Model file not included / License compliant.
 
-# Gemma4-AMD-Success
-
-gemma-4-26b AMD 6750XT 12GB 공개용 내보내기
+-------------------------------------------------------------
 
 포함:
 - 26B GGUF IQ3/IQ2 실행 배치
 - InternVL3-8B GGUF (Q4_K_M + mmproj) 실행 배치
 - 채팅 실행 보조 배치
 - llama_gguf 실행 설정/스크립트
-- 도움말/26B 운용 가이드
+- 
 
 미포함:
 - 모델 가중치 (`*.gguf`, `*.safetensors`)
@@ -44,7 +42,7 @@ gemma-4-26b AMD 6750XT 12GB 공개용 내보내기
 
 모델 파일 미포함 / 라이선스 준수.
 <img width="1382" height="1525" alt="image" src="https://github.com/user-attachments/assets/e8b67308-1dd8-48b6-83ba-5c42d526a91b" />
-
+-----------------------------------------------------------------
 ## Gemma4 E4B Q8 실행 성공
 
 ### 실행 환경
