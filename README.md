@@ -17,3 +17,7 @@ Not included:
 Model path on target machine:
 - Recommended: `<repo_root>\Model\gemma-4-26B-A4B-it-GGUF`
 - Or set env: `VT_MODEL_BASE=<your_model_root>`
+
+*Model file not included/License compliant*
+모델 파일 미 포함/라이선스 준수
+
