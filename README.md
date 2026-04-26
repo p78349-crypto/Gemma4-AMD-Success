@@ -23,7 +23,6 @@ Model path on target machine:
 Model file not included / License compliant.
 
 -------------------------------------------------------------
-<img width="1358" height="1546" alt="image" src="https://github.com/user-attachments/assets/d0ce3692-56e2-4dc8-8bfb-7833b664da53" />
 
 포함:
 - 26B GGUF IQ3/IQ2 실행 배치
@@ -40,9 +39,11 @@ Model file not included / License compliant.
 대상 PC 모델 경로:
 - 권장: `<repo_root>\Model\gemma-4-26B-A4B-it-GGUF`
 - 또는 환경변수: `VT_MODEL_BASE=<your_model_root>`
+<img width="1358" height="1546" alt="image" src="https://github.com/user-attachments/assets/d0ce3692-56e2-4dc8-8bfb-7833b664da53" />
 
 모델 파일 미포함 / 라이선스 준수.
 ----------------------------------------------------------------
+
 InternVL3-8B 실행 성공
 ![InternVL3-8B 실행 성공 스크린샷](./images/internvl3.png)
 
@@ -51,6 +52,7 @@ InternVL3-8B 실행 성공
 - 텍스트 단독 성능은 Gemma4-26B 대비 낮음
 <img width="1382" height="1525" alt="image" src="https://github.com/user-attachments/assets/e8b67308-1dd8-48b6-83ba-5c42d526a91b" />
 -----------------------------------------------------------------
+
 ## Gemma4 E4B Q8 실행 성공
 
 ### 실행 환경
