@@ -41,4 +41,14 @@
   - llama_gguf\bin\llama-server.exe 존재 확인
   - GGUF 파일 다운로드 완료
 
+[ start_26b_iq3 버전 정보 (기준일: 2026-04-26) ]
+  - 실행 배치: exebat\start_26b_iq3.bat
+  - 실행 인자: --family 26b --model IQ3_S --port 8031 --ngl 99
+  - Python: 3.12.10
+  - llama-server.exe: version 8808 (408225bb1)
+  - llama-server build: Clang 19.1.5 (Windows x86_64)
+  - GGUF 모델 파일: gemma-4-26B-A4B-it-UD-IQ3_S.gguf
+  - GGUF 포맷: version 3 (magic: GGUF)
+  - 백엔드 DLL: ggml-vulkan.dll, ggml-cpu-zen4.dll, ggml-rpc.dll
+
 ========================================================
