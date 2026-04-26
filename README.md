@@ -26,8 +26,6 @@ Model file not included / License compliant.
 
 gemma-4-26b AMD 6750XT 12GB 공개용 내보내기
 
-이 폴더는 Git 업로드를 위한 코드/배치 추출본입니다.
-
 포함:
 - 26B GGUF IQ3/IQ2 실행 배치
 - InternVL3-8B GGUF (Q4_K_M + mmproj) 실행 배치
