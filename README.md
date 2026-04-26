@@ -42,6 +42,13 @@ Model file not included / License compliant.
 - 또는 환경변수: `VT_MODEL_BASE=<your_model_root>`
 
 모델 파일 미포함 / 라이선스 준수.
+----------------------------------------------------------------
+InternVL3-8B 실행 성공
+![InternVL3-8B 실행 성공 스크린샷](./images/internvl3.png)
+
+- 이미지+텍스트 멀티모달 입력 처리 가능
+- OCR 이미지 캡션, 시각 자료 분석에 적합
+- 텍스트 단독 성능은 Gemma4-26B 대비 낮음
 <img width="1382" height="1525" alt="image" src="https://github.com/user-attachments/assets/e8b67308-1dd8-48b6-83ba-5c42d526a91b" />
 -----------------------------------------------------------------
 ## Gemma4 E4B Q8 실행 성공
@@ -60,3 +67,4 @@ Model file not included / License compliant.
 - **26B**: 최고 성능, 긴 문맥 처리와 추론력이 뛰어나 초벌 번역가로 적합
 - **E4B Q8**: 상대적으로 가볍고 빠르며, GPU 메모리 부담이 적음 → 테스트 및 경량 작업에 유용
 - 결론: 26B는 “최고 성능”, E4B Q8은 “실용적 경량 모델”로 병행 활용 가능
+<img width="1358" height="1551" alt="image" src="https://github.com/user-attachments/assets/1186d258-3b7f-4e84-a74d-aa05ff292a6b" />
