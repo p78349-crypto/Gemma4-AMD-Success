@@ -65,8 +65,21 @@ InternVL3-8B 실행 성공
 - 긴 문서 입력(OCR 텍스트 포함) 처리 가능
 - 출력 결과가 자연스럽고, 교정/번역 작업에 활용 가능
 
-### 비교 (vs Gemma4 26B)
-- **26B**: 최고 성능, 긴 문맥 처리와 추론력이 뛰어나 초벌 번역가로 적합
-- **E4B Q8**: 상대적으로 가볍고 빠르며, GPU 메모리 부담이 적음 → 테스트 및 경량 작업에 유용
-- 결론: 26B는 “최고 성능”, E4B Q8은 “실용적 경량 모델”로 병행 활용 가능
+## 모델 성능 비교 (한글)
+
+| 모델명        | 강점                  | 활용 분야                  | 제한점 |
+|---------------|-----------------------|----------------------------|--------|
+| Gemma4-26B    | 긴 문맥 처리, 추론력 우수 | OCR 교정, 초벌 번역, 요약 | VRAM 부담 큼 |
+| Gemma4-E4B Q8 | 가볍고 빠름, 메모리 효율적 | 테스트, 경량 작업          | 성능은 26B 대비 낮음 |
+| InternVL3-8B  | 이미지+텍스트 멀티모달 처리 | OCR 이미지 캡션, 시각 자료 | 텍스트 단독 성능 약함 |
+
+---
+
+## Model Performance Comparison (English)
+
+| Model         | Strengths                  | Use Cases                  | Limitations |
+|---------------|----------------------------|----------------------------|-------------|
+| Gemma4-26B    | Strong long-context reasoning | OCR correction, draft translation, summarization | High VRAM usage |
+| Gemma4-E4B Q8 | Lightweight, memory efficient | Testing, lightweight tasks | Lower performance vs 26B |
+| InternVL3-8B  | Handles image+text multimodal | OCR image captioning, visual-text analysis | Weaker text-only performance |
 <img width="1358" height="1551" alt="image" src="https://github.com/user-attachments/assets/1186d258-3b7f-4e84-a74d-aa05ff292a6b" />
