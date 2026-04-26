@@ -45,3 +45,5 @@ gemma-4-26b AMD 6750XT 12GB 공개용 내보내기
 - 또는 환경변수: `VT_MODEL_BASE=<your_model_root>`
 
 모델 파일 미포함 / 라이선스 준수.
+<img width="1382" height="1525" alt="image" src="https://github.com/user-attachments/assets/e8b67308-1dd8-48b6-83ba-5c42d526a91b" />
+
