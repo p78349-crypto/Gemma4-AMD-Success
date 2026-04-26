@@ -1,0 +1,47 @@
+[Model/Port quick map]
+NLLB-600M :8011   NLLB-1.3B :8012   NLLB-3.3B :8013
+Gemma4-E2B :8001  Gemma4-E4B :8002  Gemma4-26B :8003
+InternVL2.5-4B :8004
+Gemma4-E2B GGUF :8032
+Gemma4-26B GGUF :8031 (IQ3_S / IQ2_M)
+Whisper Turbo :8021  Whisper Large :8022  Whisper FP32 :8023
+TTS Edge :8024
+
+[Launchers]
+exebat\control_panel.bat
+exebat\server_start.bat 1
+exebat\server_start.bat 2
+exebat\\server_stop.bat
+
+[Chat endpoint]
+POST http://localhost:<port>/v1/chat/completions
+
+[Continue (VS Code) example]
+{
+  "models": [
+    {
+      "title": "Gemma4-26B Local",
+      "provider": "openai",
+      "model": "gemma",
+      "apiBase": "http://localhost:8031",
+      "apiKey": "local"
+    },
+    {
+      "title": "InternVL2.5-4B Vision",
+      "provider": "openai",
+      "model": "internvl2.5-4b",
+      "apiBase": "http://localhost:8004",
+      "apiKey": "local"
+    }
+  ]
+}
+
+[Health check]
+http://localhost:8011/health
+http://localhost:8001/health
+http://localhost:8021/health
+http://localhost:8031/health
+
+[Note]
+- Address bar GET is health check only.
+- Real chat/translate is POST API call.
