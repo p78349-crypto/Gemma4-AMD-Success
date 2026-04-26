@@ -23,6 +23,7 @@ Model path on target machine:
 Model file not included / License compliant.
 
 -------------------------------------------------------------
+<img width="1358" height="1546" alt="image" src="https://github.com/user-attachments/assets/d0ce3692-56e2-4dc8-8bfb-7833b664da53" />
 
 포함:
 - 26B GGUF IQ3/IQ2 실행 배치
